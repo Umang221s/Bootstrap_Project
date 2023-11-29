@@ -1,0 +1,36 @@
+@media(max-width:768px) {
+ .main-ul{
+position: absolute;
+left: -1000px;
+top: 80px;
+background-color: #4a1831;
+width: 100%;
+ }
+ .main-ul li{
+    padding: 10px 0px;
+ }
+
+ .section-2-image{
+    background-size: contain;
+
+ }
+ .semi-text h1{
+    font-size: 80px;
+}
+}
+@media(max-width:500px) {
+    .semi-text h1{
+        font-size: 80px;
+    }
+    .semi-text p{
+        font-size: 18px;
+        margin-left: 0px;
+        width: 400px;
+    }
+    .section-2-text p{
+        width: 400px;
+    }
+    .section-2-image{
+        background-size: 100% 50%;
+     }
+}

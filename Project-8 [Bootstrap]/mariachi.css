@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    background-color: #4a1831;
+    
+}
+.main-ul{
+    width: 700px;   
+    transition: 0.5s;
+}
+.main-ul li{
+    list-style: none;
+    text-align: center;
+}
+.main-ul li:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.main-ul li:hover a{
+    color: #4a1831;
+}
+.main-ul li a{
+    color: white;
+    text-decoration: none;
+    color: #ffd7ad;
+font-weight: 700;
+font-family: "Roboto";
+font-size: 25px;
+}
+.bar{
+    color:  #ffd7ad;
+    font-size: 35px;
+}
+.main-section{
+    background-image: url("images/227784-P1PRTC-941.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.semi-text h1{
+    font-size: 125px;
+color: #ffd7ad;
+font-weight: 700;
+font-family: "Roboto";
+}
+.semi-text p{
+font-size: 25px;
+color: #ffd7ad;
+font-weight: 400;
+font-family: "Roboto";
+width: 550px;
+}
+.semi-text button{
+    border: none;
+    background-color: #ffd7ad;
+    font-size: 15px;
+    color: #4a1831;
+font-weight: 700;
+border-radius: 33px;
+padding: 10px 40px;
+}
+.section-2-text{
+    color: #4a1831;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #ffd7ad;
+}
+.section-2-text h1{
+    font-size: 35px;
+}
+.section-2-text p{
+    width: 650px;
+    font-size: 20px;
+}
+.section-2-text button{
+    background-color: #4a1831;
+    color: #ffd7ad;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 33px;
+}
+.section-2-image{
+height: 300px;
+}
+.section-2-image img{
+object-fit: cover;
+}
+.about{
+    background-color: #ffd7ad;
+}
+.about-image{
+    background-image: url('images/Vector\ Smart\ Object\ \(Double\ Click\ to\ Edit\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-text{
+    margin: 200px 0px;
+
+}
+.about-text {
+    color: #4a1831; 
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.about-text h1{
+    font-size: 50px;
+}
+.about-text p{
+    font-size: 16px;
+}
+
